@@ -1,0 +1,15 @@
+1.What happens if two shapes overlap and you delete one — does the other shape remain intact visually? Why or why not?
+2.Why does redraw_canvas() clear the entire canvas and redraw everything instead of just erasing one shape?
+3.Why is set_pixel() checking bounds before drawing — what would happen without it?
+4.Why does add_circle() validate radius but modify_object() doesn't — is that a bug or intentional?
+5.Can you explain how the Bresenham line algorithm decides which pixel to plot next?
+6.What does the err variable represent in draw_line_on_canvas()?
+7.Why does the Midpoint Circle algorithm only compute one octant and mirror it 8 ways?
+8.What would happen if you drew a circle with radius 0 or a negative radius?
+9.What happens if the user enters obj_count = 49 objects and then tries to add one more?
+10.What if the user pipes a file as input — can flush_stdin() cause an infinite loop? Why?
+11.If you add a rectangle, then add a circle on top, then delete the rectangle — is the result correct?
+12.How would you add an undo feature — what data would you need to store?
+13.How would you support filled shapes instead of just outlines?
+14.How would you allow each shape to have its own draw character instead of always using *?
+15.How would you save and load a drawing to/from a file?
